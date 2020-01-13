@@ -1,0 +1,3 @@
+[submodule "quasijazzer-band"]
+	path = quasijazzer-band
+	url = https://github.com/lisp-scheme-music/quasijazzer-band.git
