@@ -9,10 +9,10 @@ If It Ain't Got That Swing", jazz music without swing feel does not impress
 much to audience.
 
 In my analysis, the beats of good groove are multi-layered by two parameters:
-the length of the notes, and a classification as on-beat, off-beat; and played
-with what I call "drift". This "drift" is not a denominational terminology.
-Almost every note in Jazz is played earlier/later than its location where it
-should be played if it is written in a music sheet.
+the length of the notes, and a classification as on-beat, off-beat; and should
+be played with what I call "drift". This "drift" is not a denominational
+terminology.  Almost every note in Jazz is played earlier/later than its
+location where it should be played if it is written in a music sheet.
 
 It is very important to a good rhythm section to configure the bassist and the
 drummer with proper drifts; otherwise their rhythm limits the possibility of
