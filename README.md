@@ -1,6 +1,6 @@
 # QUASIJAZZER
 
-## Introduction for Drift and Riding
+## Introduction of Drift and Riding
 
 In this world, especially in Jazz music scene, it is very difficult to play
 with good groove on automatic backing track generators. They very likely play
