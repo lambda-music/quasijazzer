@@ -26,9 +26,6 @@
 (define (a hello) (values hello hello) )
 (import (pulsar gui))
 (gui-hello-world)
-(import (pulsar notes))
-(import (pulsar music))
-(import (pulsar main))
 
 (melody "do re mi")
 
@@ -66,6 +63,9 @@
 
 (if #f 
     (begin
+     (import (pulsar notes))
+     (import (pulsar music))
+     (import (pulsar main))
      (source "./quasijazzer-band/init.scm" )
      (session-start)
      (putt (newt 'main 12))))
