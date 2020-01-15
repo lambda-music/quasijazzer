@@ -66,7 +66,7 @@
 
 (if #f 
     (begin
-     (source "./quasijazzer/init.scm" )
+     (source "./quasijazzer-band/init.scm" )
      (session-start)
      (putt (newt 'main 12))))
  
