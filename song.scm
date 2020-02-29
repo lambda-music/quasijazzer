@@ -1,30 +1,9 @@
-(#|
-   ========== THE MANUAL OF PULSAR LISP SCHEME MUSIC SEQUENCER =========
-   
-   NAME: ABOUT-INTRO
-   
-   SYNOPSIS: (about-intro)
-   
-   DESCRIPTION: Welcome to Pulsar music sequencer! Pulsar
-   music sequencer is a music sequencer which collaboratively works
-   with a powerful computer language Lisp Scheme. And this frame
-   itself is a powerful Lisp Scheme editor which is called Kawapad.
-   In Lisp, all commands are surrounded with a pair of
-   parentheses. You can easily execute one of those command by moving your
-   cursor within the pair of parentheses and pressing CTRL+ENTER.
-   
-   To show this help, execute (help about-intro). To show all
-   available procedures, execute (help) . To show help of a procedure,
-   execute (help [procedure-name] ) .
-   
-   
-   ======================================================================
-|#  help about-intro )
 
 (import (pulsar ats test hello))
 (import (pulsar lib basic-notes))
 (define (a hello) (values hello hello) )
 (import (pulsar gui))
+(import (pulsar music))
 (gui-hello-world)
 
 (melody "do re mi")
