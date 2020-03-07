@@ -1,8 +1,8 @@
-(import (pulsar ats test hello))
-(import (pulsar lib basic-notes))
+(import (lamu ats test hello))
+(import (lamu lib basic-notes))
 (define (a hello) (values hello hello) )
-(import (pulsar gui))
-(import (pulsar music))
+(import (lamu gui))
+(import (lamu music))
 (gui-hello-world)
 
 (melody "do re mi")
@@ -36,14 +36,14 @@
  (iota 100)
  )
 
-(import (pulsar music))
+(import (lamu music))
 (melody "do re mi fa")
 
 (if #f 
     (begin
-     (import (pulsar notes))
-     (import (pulsar music))
-     (import (pulsar main))
+     (import (lamu notes))
+     (import (lamu music))
+     (import (lamu main))
      (source "./quasijazzer-band/init.scm" )
      (session-start)
      (putt (newt 'main 12))))
